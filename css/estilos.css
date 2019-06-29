@@ -1,0 +1,41 @@
+body{
+  font-family: 'Dancing Script', cursiva;
+  /*background-color: #02010a;*/
+}
+
+#header{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#titulo{
+  color: white;
+  padding-left: 20px;
+  text-shadow: 2px 2px #02010a;
+}
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  z-index: 100;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav li a{
+  padding: 35px 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
