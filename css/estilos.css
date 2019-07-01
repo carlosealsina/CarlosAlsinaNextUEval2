@@ -1,14 +1,20 @@
 body{
   font-family: 'Dancing Script', cursiva;
-  /*background-color: #02010a;*/
+  background: #02010a;
+
+
+}
+
+#contenido{
+  width: 900px;
+  margin: 0 auto;
 }
 
 #header{
-  position: absolute;
-  width: 100%;
-  left: 0;
+  position: fixed;
   top: 0;
-  background-color: #5b7989;
+  width: 900px;
+  background: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -38,4 +44,15 @@ body{
   text-decoration: none;
   text-align: center;
   color: white;
+}
+
+footer{
+  clear: both;
+  width: 900px;
+  height: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #C6d5c5;
+  position: fixed;
+  bottom: 0;
 }
